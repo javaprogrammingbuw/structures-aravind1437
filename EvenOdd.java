@@ -1,15 +1,16 @@
-import java.util.Scanner;
+package Day1;
 
 //loops
 
-public class EvenOdd {
+public class EvenOdd{
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		
-		//todo: The program takes a number as input.
-		//It then goes through all integer values till reaching that value and prints all the odd ones.
-		
+		System.out.println("The odd numbers are");
+		for(int i=1;i<10;i++){
+		    if(i % 2 != 0){
+		        System.out.println(i + " ");
+		    }
+		}
 	}
-	
 }
+
