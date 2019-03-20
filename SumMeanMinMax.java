@@ -1,4 +1,3 @@
-package Day1;
 
 import java.util.Scanner;
 
@@ -23,7 +22,7 @@ public class SumMeanMinMax {
 		
 		int sum = a+b+c;
 		System.out.println("The sum is " + sum);
-		int mean = sum/3;
+		double mean = sum/3;
 		System.out.println("The mean is " + mean);
 		
 		System.out.println("The max valve is");
@@ -35,7 +34,7 @@ public class SumMeanMinMax {
 		
 		//For Max Valve
 		
-		/*if(a>b && b<c) {5
+		if(a>b && b<c) {
 			System.out.println("The max valve is a = " + a);
 		}else if (a<b && b>c) {
 			System.out.println("The max valve is b = " +b);
@@ -43,13 +42,13 @@ public class SumMeanMinMax {
 			System.out.println("The max valve is b = " + c);
 		}
 		
-		/*if(a<b && c>a) {
+		if(a<b && c>a) {
 			System.out.println("The min valve is a = " + a);
 		}else if(a>b && b<c) {
 			System.out.println("The min valve is b = " + b);
 		} else {
 			System.out.println("The min valve is c = " + c);
-		}*/
+		}
 
 	}
 
